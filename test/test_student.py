@@ -32,7 +32,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_object_not_created_error_last_name(self):
         #raise exception
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(ValueError):
             student = s.Student('123', 'Jackie', 'Biology')
 
 if __name__ == '__main__':
