@@ -41,7 +41,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_object_not_created_error_major(self):
         with self.assertRaises(ValueError):
-            student = s.Student('Chan', 'Jackie', 'Fail')
+            student = s.Student('Chan', 'Jackie', '577')
 
 
 if __name__ == '__main__':
