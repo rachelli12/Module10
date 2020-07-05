@@ -1,3 +1,10 @@
+"""
+Program name: test_student.py
+Author: Rachel Li
+Last date modified: 07/05/2020
+
+The purpose of this program is to test student.py
+"""
 import unittest
 from class_definitions import student as s
 
