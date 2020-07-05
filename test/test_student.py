@@ -20,7 +20,12 @@ class MyTestCase(unittest.TestCase):
 
     def test_object_created_all_attributes(self):
         #test constructor values set to all attributes for acceptable values
-        pass
+        student = s.Student('Chan', 'Jackie', 'Biology', 3.9) #this is not self.student from setUp, but local
+        assert student.last_name == 'Chan'
+        assert student.first_name == 'Jackie'
+        assert student.major == 'Biology'
+        assert student.gpa == 3.9
+
 
     def test_student_str(self):
         #test str() method
